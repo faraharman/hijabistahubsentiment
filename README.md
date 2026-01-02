@@ -22,7 +22,7 @@ Data was collected using the **Apify platform**, utilizing:
 - **TikTok Data Extractor** – video metadata (views, likes, shares, comments, etc.)
 - **TikTok Comment Scraper** – user comments
 
-📌 Scope:
+Scope:
 - 20 popular videos from Hijabistahub’s official TikTok account  
 - Maximum 50 comments per video  
 - 447 qualitative rows (comments)  
@@ -64,7 +64,7 @@ Key insights:
 - Strong engagement spikes during **Raya Aidilfitri**
 - Moderate engagement during **Raya Haji**
 
-📈 Influencer analysis showed that collaborations with influencers like **Fuji, Emma, Dato, and Zizan** generated significantly higher reach.
+ Influencer analysis showed that collaborations with influencers like **Fuji, Emma, Dato, and Zizan** generated significantly higher reach.
 
 ---
 
@@ -106,10 +106,3 @@ It demonstrated the most balanced performance in detecting both positive and neg
 - Apify
 - Google Colab
 - GPT-3.5 Turbo
-
----
-
-## 👩‍💻 Author
-**Farah**  
-Junior Software Developer / Data Enthusiast  
-Malaysia 🇲🇾
