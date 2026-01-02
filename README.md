@@ -1,6 +1,6 @@
-# Hijabistahub TikTok Sentiment Analysis 📊✨
+# Hijabistahub TikTok Sentiment Analysis 
 
-## 📌 Project Overview
+##  Project Overview
 Hijabistahub is a Malaysian modest fashion brand that actively promotes its products on TikTok.  
 This project analyzes **audience sentiment and engagement trends** across Hijabistahub-related TikTok content using **AI-powered sentiment analysis and predictive modelling**.
 
@@ -8,7 +8,7 @@ The goal is to help the brand better understand public perception, improve marke
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Collect and preprocess TikTok video and comment data
 - Perform sentiment labelling on user comments
 - Analyze engagement metrics and sentiment trends
@@ -17,7 +17,7 @@ The goal is to help the brand better understand public perception, improve marke
 
 ---
 
-## 📂 Data Collection
+##  Data Collection
 Data was collected using the **Apify platform**, utilizing:
 - **TikTok Data Extractor** – video metadata (views, likes, shares, comments, etc.)
 - **TikTok Comment Scraper** – user comments
@@ -30,7 +30,7 @@ Data was collected using the **Apify platform**, utilizing:
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 Data preprocessing included:
 - Removing duplicates and irrelevant records
 - Cleaning text (emojis, slang, mixed language)
@@ -41,7 +41,7 @@ Data preprocessing included:
 
 ---
 
-## 🏷️ Data Labelling
+##  Data Labelling
 Sentiment labelling was performed using **GPT-3.5 Turbo** to classify comments as:
 - Positive
 - Negative
@@ -56,7 +56,7 @@ This approach was chosen due to GPT’s ability to understand:
 
 ---
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 Key insights:
 - Average views per video: **583,154**
 - Average likes: **27,965**
@@ -68,7 +68,7 @@ Key insights:
 
 ---
 
-## 😊 Sentiment Analysis Results
+##  Sentiment Analysis Results
 - **75–80% positive sentiment**
 - **20–25% negative sentiment**
 
@@ -76,7 +76,7 @@ This indicates a strong brand image with low reputational risk.
 
 ---
 
-## 🤖 Predictive Modelling
+##  Predictive Modelling
 Three models were evaluated using an 80/20 train-test split:
 
 | Model | Accuracy |
@@ -85,12 +85,12 @@ Three models were evaluated using an 80/20 train-test split:
 | Support Vector Machine | 79.07% |
 | Naive Bayes | 69.19% |
 
-✅ **Chosen Model:** Gradient Boosted Trees  
+ **Chosen Model:** Gradient Boosted Trees  
 It demonstrated the most balanced performance in detecting both positive and negative sentiment.
 
 ---
 
-## 💡 Business Recommendations
+##  Business Recommendations
 - Leverage festive campaigns (especially Raya Aidilfitri & Raya Haji)
 - Collaborate with high-performing and mid-tier influencers
 - Focus on emotionally expressive and culturally relevant content
@@ -98,7 +98,7 @@ It demonstrated the most balanced performance in detecting both positive and neg
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
